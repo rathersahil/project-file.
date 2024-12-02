@@ -1,0 +1,88 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        
+        <title>Form MAKING</title>
+        <style>
+            form{
+                color: rgb(10, 27, 216);
+            }
+        </style>
+    </head>
+    <body>
+        <p><h1>Forms and input tags</h1><hr><br>
+
+            <form action="backend.php">
+            <label for="un">UserName:&nbsp;</label><input required type="text" name="myName" id="un"><br><br>
+
+
+            <label for="Rn">Roll NO:&nbsp;</label><input required type="text" name="myRollNo" id="Rn"><br><br>
+
+
+            <label for="Sem">Sem:&nbsp;</label><input required type="text" name="mySem" id="Sem"><br><br>
+
+
+            <label for="ms">Major Subject:&nbsp;</label><input required type="text" name="myMajorSub" id="ms"><br><br>
+
+
+            <label for="id">Your ID:&nbsp;</label><input required type="id" name="id" id="id"><br><br>
+
+
+            <label for="ps">Password:&nbsp;</label><input required type="password" name="Password" id="ps"><br><br>
+
+
+            <label for="em">Email:&nbsp;</label><input required type="Email" name="Email" id="em"><br><br>
+            
+
+            your identity<input required type="file" multiple accept ="image/*"><br><br><br>
+
+
+            <fieldset name="details">
+                <legend>
+                    <lebel for="">adress</lebel>
+                    <input required type="text" size="5">
+                    <lebel for="">Contact</lebel>
+                    <input required type="text" size="5">
+                </legend>
+            </fieldset><br><br>
+
+            
+
+
+            <lebel for="language">Language:</lebel>
+            <input required type="checkbox">english
+            <input type="checkbox">urdu
+            <input type="checkbox">kashmiri
+            <input type="checkbox">arabic
+    <br><br>
+
+
+            
+            <label for="Age">your Age</label>
+            <select name="" id="">
+            <option value="below 10">below 10</option>
+            <option value="above 10 and less than 30">above 10 and less than 30</option>
+            <option value="greater than 30">greater than 30</option></select><br><br>
+           
+
+
+
+            Gender:<br>Male <input required type="radio" name="myGender"><br>female <input type="radio" name="myGender"><br> other <input type="radio" name="myGender"><br><br>
+
+
+            
+            date <input type="datetime-local"><br><br>
+
+
+
+            <button type="submit" class=" btn-primary">Submit </button> or &nbsp;
+            <button type="reset" class=" btn-primary">Reset all info</button><br><br>
+
+
+
+            your feedback about this form<br><br>
+            <textarea name="myText" cols="20" rows="5" placeholder="please give your feedback"></textarea>
+            </form>
+        </p>
+    </body>
+    </html>
